@@ -2,10 +2,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import {HighlighterDirective} from '../Directives/highlighter.directive';
+import { BetterHighlighterDirective } from './Directives/better-highlighter.directive';
+import { ClickDirective } from './Directives/click.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HighlighterDirective,
+    BetterHighlighterDirective,
+    ClickDirective
   ],
   imports: [
     BrowserModule
